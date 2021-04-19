@@ -21,13 +21,15 @@ ul {
 }
 
 .wrapper {
-    width: 1440px;
+    
     margin: 0 auto;
 }
 .container {
-    width: 1202px;
+    max-width: 1202px;
+    width: 95%;
     margin: 0 auto;
     margin-top: 48px;
+    overflow: hidden;
 }
 .header {
     display: flex;

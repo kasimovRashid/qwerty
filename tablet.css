@@ -1,0 +1,16 @@
+body {
+  background: yellow;
+}
+.user {
+  font-size: 30px;
+}
+.title {
+  font-size: 30px;
+}
+.avatar__image {
+  width: 228px;
+  height: 252px;
+}
+.user-info__item {
+  width: 100%;
+}
