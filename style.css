@@ -28,14 +28,14 @@ ul {
     max-width: 1202px;
     width: 95%;
     margin: 0 auto;
-    margin-top: 48px;
+    margin-top: 13px;
     overflow: hidden;
 }
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   
+    margin-bottom: -10px;
 
 }
 .download {
@@ -52,6 +52,9 @@ ul {
     margin-right: 9px;
 }
 .user {
+    margin-top: 8px;
+}
+.user__name {
     font-size: 36px;
     margin-bottom: 36px;
 }
@@ -86,7 +89,7 @@ hr {
     
 }
 .about__right{
-    margin-top: -13px;
+    margin-top: -10px;
 }
 .title {
     font-size: 36px;
@@ -94,7 +97,9 @@ hr {
 }
 .skills {
     list-style-type: none;
+    margin-top: 36px;
 }
+
 .skills__title {
     font-size: 24px;
 }
@@ -102,6 +107,7 @@ hr {
     list-style-position: inside;
     list-style-type: disc;
     line-height: 27px;
+    margin-top: -9px;
 }
 .skills__tech-item {
     font-size: 16px;
@@ -111,16 +117,17 @@ hr {
     display: flex;
     list-style-type: none;
     flex-flow: wrap;
-    
+    margin-top: -13px;
 }
 .user-info__item {
     font-size: 18px;  
     width: 50%;
     margin-top: 23px;
+    
 }
 .user-info__item--section-2 {
     margin-top: 30px;
-    margin-bottom: 35px;
+    margin-bottom: 45px;
 }
 .user-info__wrapper {
     margin-left: 5px;
@@ -129,13 +136,13 @@ hr {
 .user-info__text {
     color: var(--gray);
     line-height: 27px;
-    width: 580px;
+    width: 98%;
    
 }
 .footer {
     display: flex;
     justify-content: space-between;
-    height: 122px;
+    height: 100px;
     align-items: center;
 }
 .socials {
@@ -143,5 +150,5 @@ hr {
     list-style-type: none;
 }
 .socials__item {
-    margin-left: 11px;
+    margin-right: 10px;
 }   

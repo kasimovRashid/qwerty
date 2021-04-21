@@ -1,11 +1,29 @@
-body {
-  background: yellow;
+html{
+ margin: 0;
+ padding: 0;
 }
+
+.download-link {
+  font-size: 18px;
+}
+ 
 .user {
   font-size: 30px;
 }
+.contacts__phone {
+  font-size: 21px;
+}
+.contacts__mail {
+  font-size: 18px;
+}
 .title {
   font-size: 30px;
+}
+.skills__title {
+  font-size: 24px;
+}
+.skills__tech-item {
+  font-size: 16px;
 }
 .avatar__image {
   width: 228px;
@@ -13,4 +31,10 @@ body {
 }
 .user-info__item {
   width: 100%;
+}
+.user-info__title {
+  font-size: 36px;
+}
+.user-info__text {
+  font-size: 18px;
 }
