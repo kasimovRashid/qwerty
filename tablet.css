@@ -16,6 +16,7 @@ html{
 .contacts__mail {
   font-size: 18px;
 }
+
 .title {
   font-size: 30px;
 }
@@ -28,13 +29,41 @@ html{
 .avatar__image {
   width: 228px;
   height: 252px;
+  position: relative;
+  bottom: 36px; 
+}
+.about__right {
+  position: relative;
+  bottom: 50px;
+  right: 26px;
+}
+.user-info {
+  position: relative;
+  bottom: 29px;
+  right: 6px;
 }
 .user-info__item {
   width: 100%;
+  margin: 0;
+}
+.user-info__item--section-2 {
+  margin: 0;
+}
+.user-info__wrapper {
+  
 }
 .user-info__title {
   font-size: 36px;
 }
 .user-info__text {
   font-size: 18px;
+}
+.main {
+  margin-bottom: -11px;
+}
+
+.socials__item {
+  /* margin-left: 0px;   */
+  position: relative;
+  left: 11px;
 }
