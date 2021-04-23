@@ -1,6 +1,7 @@
-html{
+/* html{
  margin: 0;
  padding: 0;
+ line-height: 1.10;
 }
 
 .download-link {
@@ -59,11 +60,20 @@ html{
   font-size: 18px;
 }
 .main {
-  margin-bottom: -11px;
+  margin-bottom: -31px;
 }
 
 .socials__item {
-  /* margin-left: 0px;   */
+   margin-left: 0px;   
   position: relative;
   left: 11px;
+} */
+.avatar__image {
+  width: 227px;
+  height: 252px;
+}
+.user-info__item {
+  font-size: 18px;  
+  width: 100%;
+  margin: 0;
 }
